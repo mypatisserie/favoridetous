@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: arial;
+    transition: 0.5s;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(aboutback.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Georgia;
+    padding-left: 0pt;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: white;
+
+}
+
+ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+ul li:hover::after{
+    width: 100%;
+}
+h1{
+    color: orange;
+    font-weight: 500;
+
+}
+.row{
+    padding-top: 50px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 320px;
+    height: 500px;
+    background: orange;
+    border-radius: 20px;
+}
+.box img{
+    width: 250px;
+    padding-top: 10px;
+}
+.box h3{
+    font-size: 25px;
+    padding-top: 20px;
+    color: black;
+}
+.box p{
+    color: black;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .row{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .row{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josephine Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #fafad2;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Georgia;
+    padding-left: 0pt;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: black;
+
+}
+
+ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+ul li:hover::after{
+    width: 100%;
+}
+.menu2{
+    width: 100%;
+    padding: 5px;
+}
+.menu-heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: Georgia;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.menu-grid{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    grid-gap: 2rem;
+}
+.heading-secondary{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.menu-img{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("croissant.jpg");
+}
+.menu-img2{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("strawberry\ cream\ cheese\ danish.jpg");
+}
+.menu-img3{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("pretzels.jpg");
+}
+.menu-img4{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("profiteroles.jpg");
+}
+.menu-img5{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("chocolate\ eclaires.jpg");
+}
+.menu-img6{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("apple\ strudel.jpg");
+}
+.menu-img7{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("french\ toast\ macarons.jpg");
+}
+.menu-img8{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("canoli.jpg");
+}
+.menu-container{
+    width: 100%;
+    height: 40rem;
+    background-color: #ffffe0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0,0,0,.2);
+    transition: all .4s ease;
+}
+.menu-container:hover{
+    box-shadow: 0 0 5rem rgba(0,0,0,.4);
+    transform: scale(1.07);
+}
+.menu-p{
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+}
+.menu-title{
+    font-size: 3rem;
+    text-align: center;
+}
+.price{
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 0 .4rem 2rem rgba(0,0,0,.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
